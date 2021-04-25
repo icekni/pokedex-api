@@ -63,7 +63,7 @@ bin/console app:pokemon:pull
 ```
 
 - Le site est maintenant accessible depuis le dossier `public`
-- 
+
 `Pensez à mettre le navigateur en mode mobile via l'inspecteur d'éléments (F12)`
 
 ![Image indiquant comment passer en mode mobile](https://github.com/icekni/pokedex-api/blob/main/docs/VirtualBox_Le%20t%EF%BF%BDl%EF%BF%BDporteur%201_25_04_2021_14_44_07.png)
