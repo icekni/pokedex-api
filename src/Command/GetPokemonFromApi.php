@@ -51,7 +51,7 @@ class GetPokemonFromApi extends Command
             // Création d'un nouveau pokemon
             $pokemon = (new Pokemon())
                 ->setName($pokemonData->name)
-                ->setPicture($details->sprites->other->dream_world->front_default)
+                ->setPicture($details->sprites->other->{'official-artwork'}->front_default)
                 ->setDescription("Description de " . $pokemonData->name)
             ;
 
