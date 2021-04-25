@@ -47,6 +47,10 @@
   margin: 1rem;
 }
 
+.pokemon-picture img {
+  max-width: 80%;
+}
+
 @media (min-width: 768px) {
   .pokemon-content {
     display: grid;

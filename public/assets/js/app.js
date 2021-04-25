@@ -6,6 +6,8 @@ const app = {
     // Ajout d'un ecouteur d'evenement sur chacun pour detecter le clic dessus
     pokemonCardsList.forEach((card) => card.addEventListener('click', app.handleClick));
 
+    alert('Ce site est uniquement prevu pour etre vu en mode mobile (portait comme paysage). Utilisez l\'inspecteur d\'elements (F12) pour passer en mode mobile.')
+
     // Chargement de tous les pokemons depuis l'API
     fetch("browse")
       .then((response) => response.json())
