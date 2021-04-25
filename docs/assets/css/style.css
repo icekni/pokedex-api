@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pokemon {
+  margin: 0 1px 1rem;
+  box-shadow: 0 0 3px 0 #ccc;
+}
+
+.pokemon-header {
+  background-color: #0080ff;
+  color: #fff;
+  padding: 1rem;
+}
+
+.pokemon-header::before {
+  content: "▼";
+  margin-right: 1rem;
+}
+
+.pokemon-header--expanded::before {
+  content: "▲";
+  margin-right: 1rem;
+}
+
+.pokemon-content {
+  overflow: hidden;
+  max-height: 500px;
+  transition: 0.5s;
+}
+
+.pokemon-picture,
+.pokemon-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
