@@ -1,5 +1,10 @@
 # Pokedex
 
+## Description :
+
+Exercice issu d'un test technique.
+Objectif : developper un front responsive faisant appel à une API
+
 ## Démo disponible ici : [https://pokedex.cedric-josso.net](https://pokedex.cedric-josso.net)
 
 ## Technologies utilisées
