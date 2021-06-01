@@ -3,7 +3,7 @@
 ## Description :
 
 Exercice issu d'un test technique.
-Objectif : developper un front responsive faisant appel à une API
+Objectif : developper un front responsive et une API permettant d'afficher une liste de pokemon.
 
 ## Démo disponible ici : [https://pokedex.cedric-josso.net](https://pokedex.cedric-josso.net)
 
